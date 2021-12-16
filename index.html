@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+
+<title>CATikis</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+<header>
+<a href="index.html" ><img src="ikiologo.png" class="logo">CAT ikis</a>
+<ul>
+    <li><a href="index.html">home</a></li>
+    <li><a href="about.html">about</a></li>
+    <li><a href="photos.html">photos</a></li>
+</ul>
+</header>
+<div class="content">
+    <div class="textBox">
+        <h2>Hello</h2>  
+         <h3>here is ikis website don't forget to follow me on instagram</h3>  
+
+    </div>
+    <div class="imgBox">
+        <img src="ikis.jpg" class="ikis">
+    </div>
+</div>
+    <ul class="thumb">
+        <li><img src="ikis.jpg" onclick="imgSlider('ikis.jpg')"></li>
+        <li><img src="ikis2.png" onclick="imgSlider('ikis2.png')"></li>
+        <li><img src="ikis3.png" onclick="imgSlider('ikis3.png')"></li>
+    </ul>
+
+    <ul class="sci">
+        <li><a href="https://www.instagram.com/cat_ikis/"><img src="instagram.png"></a></li>
+    
+    </ul>
+
+   
+    </section>
+    <script type="text/javascript">
+    function imgSlider(anything){
+        document.querySelector('.ikis').src = anything;
+    }
+    </script>
+</body>
+</html>
